@@ -40,27 +40,27 @@ Swagger UI Version | Release Date | OpenAPI Spec compatibility | Notes
 - [Deep Linking](docs/usage/deep-linking.md)
 - [Limitations](docs/usage/limitations.md)
 - [Version detection](docs/usage/version-detection.md)
-- [安装]（docs/usage/installation.md）
-- [配置]（docs/usage/configuration.md）
-- [cors]（文档/用法/cors.md）
-- [OAuth2]（文档/用法/OAuth2.md）
-- [深度链接]（docs/usage/deep-linking.md）
-- [限制]（docs/usage/limitations.md）
-- [版本检测]（docs/usage/version-detection.md）
+- [安装](docs/usage/installation.md)
+- [配置](docs/usage/configuration.md)
+- [cors](文档/用法/cors.md)
+- [OAuth2](文档/用法/OAuth2.md)
+- [深度链接](docs/usage/deep-linking.md)
+- [限制](docs/usage/limitations.md)
+- [版本检测](docs/usage/version-detection.md)
 
 #### Customization 定制
 - [Overview](docs/customization/overview.md)
 - [Plugin API](docs/customization/plugin-api.md)
 - [Custom layout](docs/customization/custom-layout.md)
-- [概述]（docs/customization/overview.md）
-- [插件API]（docs/customization/plugin api.md）
-- [自定义布局]（docs/customization/custom layout.md）
+- [概述](docs/customization/overview.md)
+- [插件API](docs/customization/plugin api.md)
+- [自定义布局](docs/customization/custom layout.md)
 
 #### Development 开发
 - [Setting up](docs/development/setting-up.md)
 - [Scripts](docs/development/scripts.md)
-- [设置]（docs/development/setting-up.md）
-- [脚本]（docs/development/scripts.md）
+- [设置](docs/development/setting-up.md)
+- [脚本](docs/development/scripts.md)
 
 ##### Integration Tests 集成测试
 
@@ -94,14 +94,14 @@ To help with the migration, here are the currently known issues with 3.X. This l
 - 只有以前支持的部分参数可用。
 - 未实现JSON表单编辑器。
 - 对“collectionformat”的支持是部分的。
-- l10n（翻译）未实现。
+- l10n(翻译)未实现。
 - 未实现外部文件的相对路径支持。
 
 ## Security contact 安全联系人
 
 Please disclose any security-related issues or vulnerabilities by emailing [security@swagger.io](mailto:security@swagger.io), instead of using the public issue tracker.
 
-请通过电子邮件[security@swager.io]（mailto:security@swager.io）而不是使用公共问题跟踪程序来披露任何与安全相关的问题或漏洞。
+请通过电子邮件[security@swager.io](mailto:security@swager.io)而不是使用公共问题跟踪程序来披露任何与安全相关的问题或漏洞。
 
 ## License 许可证
 
@@ -119,9 +119,9 @@ limitations under the License.
 
 版权所有2019 SmartBear软件
 
-根据Apache许可证2.0版（“许可证”）获得许可；
+根据Apache许可证2.0版(“许可证”)获得许可；
 除非符合许可证，否则您不能使用此文件。
-您可以在[apache.org/licenses/license-2.0]获取许可证副本（http://www.apache.org/licenses/license-2.0）
+您可以在[apache.org/licenses/license-2.0]获取许可证副本(http://www.apache.org/licenses/license-2.0)
 
 除非适用法律要求或书面同意，软件根据许可证分发是按“原样”分发的，无任何明示或暗示的保证或条件。
 有关管理权限和许可证限制。
