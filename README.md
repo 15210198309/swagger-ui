@@ -32,7 +32,7 @@ Swagger UI Version | Release Date | OpenAPI Spec compatibility | Notes
 
 ## Documentation
 
-#### Usage
+#### Usage 用法
 - [Installation](docs/usage/installation.md)
 - [Configuration](docs/usage/configuration.md)
 - [CORS](docs/usage/cors.md)
@@ -40,27 +40,46 @@ Swagger UI Version | Release Date | OpenAPI Spec compatibility | Notes
 - [Deep Linking](docs/usage/deep-linking.md)
 - [Limitations](docs/usage/limitations.md)
 - [Version detection](docs/usage/version-detection.md)
+- [安装]（docs/usage/installation.md）
+- [配置]（docs/usage/configuration.md）
+- [cors]（文档/用法/cors.md）
+- [OAuth2]（文档/用法/OAuth2.md）
+- [深度链接]（docs/usage/deep-linking.md）
+- [限制]（docs/usage/limitations.md）
+- [版本检测]（docs/usage/version-detection.md）
 
-#### Customization
+#### Customization 定制
 - [Overview](docs/customization/overview.md)
 - [Plugin API](docs/customization/plugin-api.md)
 - [Custom layout](docs/customization/custom-layout.md)
+- [概述]（docs/customization/overview.md）
+- [插件API]（docs/customization/plugin api.md）
+- [自定义布局]（docs/customization/custom layout.md）
 
-#### Development
+#### Development 开发
 - [Setting up](docs/development/setting-up.md)
 - [Scripts](docs/development/scripts.md)
+- [设置]（docs/development/setting-up.md）
+- [脚本]（docs/development/scripts.md）
 
-##### Integration Tests
+##### Integration Tests 集成测试
 
 You will need JDK of version 7 or higher as instructed here
 http://nightwatchjs.org/gettingstarted#selenium-server-setup
 
 Integration tests can be run locally with `npm run e2e` - be sure you aren't running a dev server when testing!
 
-### Browser support
+如本文所述，您需要7版或更高版本的JDK
+http://nightwatchjs.org/gettingstarted#selenium-server-setup
+
+集成测试可以使用“npm run e2e”在本地运行-确保测试时没有运行dev服务器！
+
+### Browser support 浏览器支持
 Swagger UI works in the latest versions of Chrome, Safari, Firefox, Edge and IE11.
 
-### Known Issues
+Swagger用户界面适用于最新版本的Chrome、Safari、Firefox、Edge和IE11。
+
+### Known Issues 已知问题
 
 To help with the migration, here are the currently known issues with 3.X. This list will update regularly, and will not include features that were not implemented in previous versions.
 
@@ -70,11 +89,21 @@ To help with the migration, here are the currently known issues with 3.X. This l
 - l10n (translations) is not implemented.
 - Relative path support for external files is not implemented.
 
-## Security contact
+为了帮助迁移，以下是3.x当前已知的问题。此列表将定期更新，并且不包括以前版本中未实现的功能。
+
+- 只有以前支持的部分参数可用。
+- 未实现JSON表单编辑器。
+- 对“collectionformat”的支持是部分的。
+- l10n（翻译）未实现。
+- 未实现外部文件的相对路径支持。
+
+## Security contact 安全联系人
 
 Please disclose any security-related issues or vulnerabilities by emailing [security@swagger.io](mailto:security@swagger.io), instead of using the public issue tracker.
 
-## License
+请通过电子邮件[security@swager.io]（mailto:security@swager.io）而不是使用公共问题跟踪程序来披露任何与安全相关的问题或漏洞。
+
+## License 许可证
 
 Copyright 2019 SmartBear Software
 
@@ -87,4 +116,13 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
+版权所有2019 SmartBear软件
+
+根据Apache许可证2.0版（“许可证”）获得许可；
+除非符合许可证，否则您不能使用此文件。
+您可以在[apache.org/licenses/license-2.0]获取许可证副本（http://www.apache.org/licenses/license-2.0）
+
+除非适用法律要求或书面同意，软件根据许可证分发是按“原样”分发的，无任何明示或暗示的保证或条件。
+有关管理权限和许可证限制。
 
